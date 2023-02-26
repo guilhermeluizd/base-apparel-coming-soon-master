@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="style.css" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  <main>
+    <div class="card_description">
+      <div class="logo">
+        <img src="images/logo.svg">
+      </div>
+      <h1>
+        <span class="style_word">We're</span> coming soon
+      </h1>
+      <P>
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </P>
+      <div class="input_email">
+        <input type="email" class="email" id="inputEmail" value="Email Address">
+        <div class="div_error_icon">
+          <img src="images/icon-error.svg" class="error_icon" id="errorIconImg">
+        </div>
+        <button class="button" id="button" onclick="sendEmail()">
+          <img src="images/icon-arrow.svg">
+        </button>
+      </div>
+      <p class="error_message" id="errorMessage"></p>
+    </div>
+    <div class="card_image">
+      <img src="images/hero-desktop.jpg">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
